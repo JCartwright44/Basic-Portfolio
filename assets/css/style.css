@@ -1,0 +1,71 @@
+.name {
+    background-color: blue;
+}
+
+.title_about {
+    background-color: green;
+}
+
+.title_portfolio {
+    background-color: red;
+}
+
+.title_contact {
+    background-color: orange;
+}
+
+.footer {
+    background-color: fuchsia;
+}
+
+.about_title {
+    background-color: maroon;
+}
+
+.about_content {
+    background-color: aquamarine;
+}
+
+.portfolio_title {
+    background-color: peru;
+}
+
+.portfolio_hangman {
+    background-color: purple;
+}
+
+.portfolio_rpg {
+    background-color: palegoldenrod;
+}
+
+.portfolio_trivia {
+    background-color: palegreen;
+}
+
+.portfolio_rutgers {
+    background-color: paleturquoise;
+}
+
+.portfolio_rock {
+    background-color: palevioletred;
+}
+
+.contact_title {
+    background-color: rosybrown;
+}
+
+.contact_name {
+    background-color: brown;
+}
+
+.contact_email {
+    background-color: navy;
+}
+
+.contact_message {
+    background-color: mediumorchid;
+}
+
+.contact_submit {
+    background-color: lawngreen;
+}

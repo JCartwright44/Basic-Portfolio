@@ -1,40 +1,47 @@
 .header_container {
     background-color: skyblue;
-    height: 100px;
+    height: 75px;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    margin-bottom: 0px;
+    border-color: black;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
 }
 
 .name {
     background-color: blue;
     float: left;
     width: 300px;
-    height: 90px;
+    height: 70px;
     text-align: center;
+    margin-top: 5px;
 }
 
 .title_about {
     background-color: green;
     float: right;
     width: 100px;
-    height: 90px;
+    height: 20px;
     text-align: center;
+    margin-top: 20px;
+
 }
 
 .title_portfolio {
     background-color: red;
     float: right;
     width: 100px;
-    height: 90px;
+    height: 20px;
     text-align: center;
+    margin-top: 20px;
 }
 
 .title_contact {
     background-color: orange;
     float: right;
     width: 100px;
-    height: 90px;
+    height: 20px;
     text-align: center;
+    margin-top: 20px;
 }
 
 .footer {
@@ -43,23 +50,38 @@
     text-align: center;
     vertical-align: text-bottom;
     border-style: solid;
-    border-width: 10px 0px 0px 0px;
+    border-width: 2px 0px 0px 0px;
     border-top-color: black;
 }
 
 .copyright {
     background-color: khaki;
     width: 90px;
+    height: 40px;
+    display: inline-block;
 }
 
 .body_content {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-color: darkkhaki;
     margin-top: 0px;
-    
+    overflow: auto;
 }
+
+.image_me {
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    margin: 15px 15px 10px 15px;
+    float: left;
+}
+
 .about_title {
     background-color: maroon;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 0px 2px 0px;
+    height: 35px;
 }
 
 .about_content {
@@ -68,49 +90,68 @@
 
 .portfolio_title {
     background-color: peru;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 0px 2px 0px;
+    height: 35px;
 }
 
 .portfolio_hangman {
     background-color: purple;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    float: left;
 
 }
 
 .portfolio_rpg {
     background-color: palegoldenrod;
-    height: 150px;
-    width: 150px;
- 
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    float: left;
+
 }
 
 .portfolio_trivia {
     background-color: palegreen;
-    height: 150px;
-    width: 150px;
-    
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    float: left;
+    clear: left;
+
 }
 
 .portfolio_rutgers {
     background-color: paleturquoise;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    float: left;
 
 }
 
 .portfolio_rock {
     background-color: palevioletred;
-    height: 150px;
-    width: 150px;
-  
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    float: left;
+    clear: left;
 }
 
 .contact_title {
     background-color: rosybrown;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 0px 2px 0px;
+    height: 35px;
 }
 
 .hangman {
-    background-color: orange
+    background-color: orange;
 }
 
 .rpg {

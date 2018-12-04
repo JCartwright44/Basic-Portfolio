@@ -1,23 +1,63 @@
+.header_container {
+    background-color: skyblue;
+    height: 100px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-bottom: 0px;
+}
+
 .name {
     background-color: blue;
+    float: left;
+    width: 300px;
+    height: 90px;
+    text-align: center;
 }
 
 .title_about {
     background-color: green;
+    float: right;
+    width: 100px;
+    height: 90px;
+    text-align: center;
 }
 
 .title_portfolio {
     background-color: red;
+    float: right;
+    width: 100px;
+    height: 90px;
+    text-align: center;
 }
 
 .title_contact {
     background-color: orange;
+    float: right;
+    width: 100px;
+    height: 90px;
+    text-align: center;
 }
 
 .footer {
     background-color: fuchsia;
+    height: 50px;
+    text-align: center;
+    vertical-align: text-bottom;
+    border-style: solid;
+    border-width: 10px 0px 0px 0px;
+    border-top-color: black;
 }
 
+.copyright {
+    background-color: khaki;
+    width: 90px;
+}
+
+.body_content {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: darkkhaki;
+    margin-top: 0px;
+    
+}
 .about_title {
     background-color: maroon;
 }
@@ -32,40 +72,59 @@
 
 .portfolio_hangman {
     background-color: purple;
+    height: 150px;
+    width: 150px;
+
 }
 
 .portfolio_rpg {
     background-color: palegoldenrod;
+    height: 150px;
+    width: 150px;
+ 
 }
 
 .portfolio_trivia {
     background-color: palegreen;
+    height: 150px;
+    width: 150px;
+    
 }
 
 .portfolio_rutgers {
     background-color: paleturquoise;
+    height: 150px;
+    width: 150px;
+
 }
 
 .portfolio_rock {
     background-color: palevioletred;
+    height: 150px;
+    width: 150px;
+  
 }
 
 .contact_title {
     background-color: rosybrown;
 }
 
-.contact_name {
-    background-color: brown;
+.hangman {
+    background-color: orange
 }
 
-.contact_email {
-    background-color: navy;
+.rpg {
+    background-color: orange;
 }
 
-.contact_message {
-    background-color: mediumorchid;
+.trivia {
+    background-color: orange;
 }
 
-.contact_submit {
-    background-color: lawngreen;
+.rutgers {
+    background-color: orange;
+}
+
+.rock {
+    background-color: orange;
 }

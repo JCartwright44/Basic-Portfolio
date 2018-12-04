@@ -10,51 +10,50 @@
 <body>
     
         <header>
+                <div class="header_container">
                 <div class="name">
-                        <p>Jason Cartwright</p>
+                        <h1>Jason Cartwright</h1>
                     </div>
             
                     <div class="title_about">
-                        <p>About</p>
+                        <h2>About</h2>
                     </div>
             
                     <div class="title_portfolio">
-                        <p>Portfolio</p>
+                        <h2>Portfolio</h2>
                     </div>
             
                     <div class="title_contact">
-                        <p>Contact</p>
+                        <h2>Contact</h2>
+                    </div>
                     </div>
             </header>
 
             <body>
-                <div class="contact_title">
-                    <p>Contact</p>
-                </div>
-
-                <div class="contact_name">
-                    <p>Name</p>
-                </div>
-
-                <div class="contact_email">
-                    <p>Email</p>
-                </div>
-
-                <div class="contact_message">
-                    <p>Message</p>
-                </div>
-
-                <div class="contact_submit">
-                    <p>Submit</p>
-                </div>
-
-               
+                <div class="body_content">
+                    
+                        <div class="contact_title">
+                            <h1>Contact</h1>
+                        </div>
+                    <form action="action_page.php">
+                        <label for= "name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Smith">
+                        <br>
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="example@gmail.com">
+                        <br>
+                        <label for="message">Message</label>
+                        <input type="text" id="message" name="message">
+                        <br>
+                        <input type="submit" value="submit">
+                    </form>
+                </div>    
             </body>
 
             <footer>
                     <div class="footer">
-                            <p>Copyright ©</p>
-                       </div>
+                            <div class="copyright"><p>Copyright ©</p></div>
+                        </div>
             </footer>
 </body>
 </html>

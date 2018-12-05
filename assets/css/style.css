@@ -7,6 +7,9 @@
     border-style: solid;
 }
 
+h3 {
+    margin: 0px;
+}
 .name {
     background-color: blue;
     float: left;
@@ -14,6 +17,7 @@
     height: 70px;
     text-align: center;
     margin-top: 5px;
+    margin-left: 20px;
 }
 
 .title_about {
@@ -22,8 +26,7 @@
     width: 100px;
     height: 20px;
     text-align: center;
-    margin-top: 20px;
-
+    margin-top: 30px;
 }
 
 .title_portfolio {
@@ -32,7 +35,10 @@
     width: 100px;
     height: 20px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 1px 0px 0px;
 }
 
 .title_contact {
@@ -41,7 +47,10 @@
     width: 100px;
     height: 20px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 1px 0px 0px;
 }
 
 .footer {
@@ -66,41 +75,40 @@
     background-color: darkkhaki;
     margin-top: 0px;
     overflow: auto;
+    margin: 20px;
 }
 
 .image_me {
     background-color: purple;
     width: 200px;
     height: 200px;
-    margin: 15px 15px 10px 15px;
+    margin: 20px;
     float: left;
 }
 
 .about_title {
     background-color: maroon;
-    border-style: solid;
-    border-color: black;
-    border-width: 0px 0px 2px 0px;
     height: 35px;
+    margin: 20px;
 }
 
 .about_content {
     background-color: aquamarine;
+    margin: 20px;
+    padding: 20px;
 }
 
 .portfolio_title {
     background-color: peru;
-    border-style: solid;
-    border-color: black;
-    border-width: 0px 0px 2px 0px;
     height: 35px;
+    margin: 20px;
 }
 
 .portfolio_hangman {
     background-color: purple;
     height: 200px;
     width: 200px;
-    margin: 10px;
+    margin: 20px;
     float: left;
 
 }
@@ -109,7 +117,7 @@
     background-color: palegoldenrod;
     height: 200px;
     width: 200px;
-    margin: 10px;
+    margin: 20px;
     float: left;
 
 }
@@ -118,7 +126,7 @@
     background-color: palegreen;
     height: 200px;
     width: 200px;
-    margin: 10px;
+    margin: 20px;
     float: left;
     clear: left;
 
@@ -128,7 +136,7 @@
     background-color: paleturquoise;
     height: 200px;
     width: 200px;
-    margin: 10px;
+    margin: 20px;
     float: left;
 
 }
@@ -137,19 +145,20 @@
     background-color: palevioletred;
     height: 200px;
     width: 200px;
-    margin: 10px;
+    margin: 20px;
     float: left;
     clear: left;
 }
 
 .contact_title {
     background-color: rosybrown;
-    border-style: solid;
-    border-color: black;
-    border-width: 0px 0px 2px 0px;
     height: 35px;
+    margin: 20px;
 }
 
+.contact_form {
+    margin: 20px;
+}
 .hangman {
     background-color: orange;
 }

@@ -235,6 +235,9 @@ h3 {
     font-size: 20px;
 }
 
+.hangman:hover {
+    background-color: blue;
+}
 .rpg {
     background-color: #4aaaa5;
     color: white;
@@ -246,6 +249,11 @@ h3 {
     text-align: center;
     padding-bottom: 10px;
     font-size: 20px;
+}
+
+.rpg:hover {
+    background-color: blue;
+    color: white;
 }
 
 .trivia {
@@ -261,6 +269,11 @@ h3 {
     font-size: 20px;
 }
 
+.trivia:hover {
+    background-color: blue;
+    color: white;
+}
+
 .rutgers {
     background-color: #4aaaa5;
     color: white;
@@ -272,6 +285,11 @@ h3 {
     text-align: center;
     padding-bottom: 10px;
     font-size: 20px;
+}
+
+.rutgers:hover {
+    background-color: blue;
+    color: white;
 }
 
 .rock {
@@ -286,6 +304,12 @@ h3 {
     padding-bottom: 10px;
     font-size: 20px;
 }
+
+.rock:hover {
+    background-color: blue;
+    color: white;
+}
+
 html {
     overflow-y: scroll;
   }
